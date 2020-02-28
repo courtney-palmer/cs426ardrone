@@ -136,6 +136,8 @@ set(AA_SOURCES
     #src/image_converter.cpp
 )
 
+add_compile_options(-std=c++11)
+
 # Build executable
 add_executable(ardrone_driver ${AA_SOURCES})
 
